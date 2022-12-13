@@ -144,7 +144,6 @@
     align-items:center;
   }
   .header .button{
-  
     display: block;
   }
   .header .nav{/*quando o botão não estiver ativo */

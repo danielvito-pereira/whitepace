@@ -1,14 +1,17 @@
 <template>
   <NavMenu/>
+  <HeroSection/>
 </template>
 
 <script>
 
 import NavMenu from './components/NavMenu.vue'
+import HeroSection from './components/HeroSection.vue'
 export default {
   name: 'App',
   components: {
     NavMenu,
+    HeroSection
   }
 }
 </script>
