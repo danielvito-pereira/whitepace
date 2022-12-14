@@ -1,9 +1,10 @@
+
 <template>
-  <section class="NavMenu">
-    <header class="header">
-      <div class="wrapper">
-        <h1 class="h1">
-          <a href="" class="a">
+  <footer>
+    <div class="conteudo">
+      <div class="info">
+          <div class="logo-description">
+            <a href="" class="a">
             <svg width="134" height="24" viewBox="0 0 134 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_9_23296)">
             <path d="M0.0131836 3.4133V8.15097C0.0131836 9.59392 1.7714 10.3635 2.84587 9.35343L7.974 4.61575C9.0973 3.58164 8.36471 1.75391 6.82627 1.75391H1.69814C0.770194 1.75391 0.0131836 2.49943 0.0131836 3.4133Z" fill="white"/>
@@ -17,244 +18,267 @@
             </clipPath>
             </defs>
             </svg>
-          </a>
-        </h1>
-        <div class="btnTablet">
-            <a class="bt -amarelo">Login</a>
-            <a class="bt -azul">Try Whitepace free</a>
-        </div>
-        <button class="button">
-          <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"  viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-          </svg>
-        </button>
-        <nav class="nav">
-          <ul class="ul">
-            <li class="li"><a href="" class="a">Products</a></li>
-            <li class="li"><a href="" class="a">Solutions</a></li>
-            <li class="li"><a href="" class="a">Resources</a></li>
-            <li class="li"><a href="" class="a">Princing</a></li>
-            <div class="btn">
-              <button class="bt -amarelo">Login</button>
-              <button class="bt -azul">Try Whitepace free</button>
-            </div>
-          </ul>
-        </nav>
+            </a>
+            <p class="paragrafo">whitepace was created for the new ways we live and work. 
+              We make beautyfully designed around the world</p>
+          </div>
+          <div class="inf">
+            <h1 class="paragrafo">Product</h1>
+            <p>Overview</p>
+            <p>Pricing</p>
+            <p>Customer Stories</p>
+          </div>
+          <div class="inf">
+            <h1 class="paragrafo">Resources</h1>
+            <p>Blog</p>
+            <p>Guides & tutorials</p>
+            <p>Help center</p>
+          </div>
+          <div class="inf">
+            <h1 class="paragrafo">Company</h1>
+            <p>About us</p>
+            <p>Careers</p>
+            <p>Media Kit</p>
+          </div>
+          <di class="try-btn">
+            <h1 class="paragrafo">Try It Today</h1>
+            <p >Get started for free.
+              Add your whole team as your needs grow.</p>
+              <button class="bt -azul">Start today</button>
+              
+          </di>
       </div>
-
-    </header>
-  </section>
+    </div>
+    <div class="btm">
+      <div class="terms">
+          <p  class="paragrafo">Terms & privacy</p>
+          <p class="paragrafo">Security</p>
+          <p class="paragrafo">Status</p>
+          <p class="paragrafo">©2021 Whitepace LLC.</p>
+      </div>
+      <div class="social">
+          <a href="">
+            <img src="../assets/img/Icon_11_.png" alt="">
+          </a>
+          <a href="">
+            <img src="../assets/img/Group11.png" alt="">
+          </a>
+          <a href="">
+            <img src="../assets/img/Linkedin.png" alt="">
+          </a>
+      </div>
+    </div>
+  </footer>
 </template>
-<style lang="scss" scoped>
-/* Código */
-.NavMenu{
-  background-color:#043873; 
-}
-.header{
-  width: 100%;
-  background-color:#043873;
-  color: #ffffff;
-  padding:1em;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content:center;
-  align-items: center;
 
-}
-.wrapper{
+<style lang="scss" scoped>
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    width: 100%;
+    padding-top: 1em;
+    background-color: var(--primary-color);
+  }
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 80px;
+    width: 90%;
+    max-height: 1533.68px;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+    width: 100%;
+    height: 1217px;
+  }
+.logo-description{
   display: flex;
-  flex-flow: row wrap;
-  justify-content:space-between;
-  align-items:center;
-  width: 90%;
-  max-width:1920px;
-}
-.header .button{
-  display: none;
-  cursor: pointer;
-}
-.header .svg{
-  width: 2em;
-  height: 2em;
-  fill: white;
-}
-.header .ul{
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content:flex-end;
+  flex-direction: column;
   align-items: center;
-  gap: 50px;
+  padding: 0px;
+  gap: 24px;
+  widows: 100%;
+  max-width: 288px;
+  height: 178px;
+  min-width: 240px;
 }
-.header .li{
-  margin: 0 0.5em;
-  &:hover{
-    color: #FFE492;
-    transition: all .5s ease-in-out;
-  }
+.inf{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 15px;
+  color: var(--white);
+  height: 157px;
 }
-.btnTablet {
+.try-btn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 23px;
+  height: 242px;
+  color: var(--white);
+}
+.btm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  width: 90%;
+  height: 236.68px;
+}
+.terms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 20px;
+  gap: 20px;
+  color: var(--white);
+  width: 100%;
+  height: 200px;
+  border-bottom: 1px solid #2E4E73;
+}
+.language{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+  height: 20px;
+}
+.social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  width: 100%;
+}
+.-img_T {
+  background-image: url();
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: block;
+  background-color: red;
+}
+#c-desk {
   display: none;
 }
-.btn{
-  display: flex;
-  gap: 50px;
-  .-amarelo{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px 40px;
-    background: #FFE492;
-    color: #043873;
-    border-radius: 8px;
-    cursor: pointer;
-    &:hover{
-      background: #4F9CF9;
-      color: #FFFFFF;
-      transition: all .5s ease-in-out;
-    }
+.paragrafo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color:var(--white);
   }
-  .-azul{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px 24px;
-    width: 227px;
-    color: #FFFFFF;
-    border-radius: 8px;
-    background-color: var(--blue-2);
-    cursor: pointer;
-    &::after{
-      content: url("../assets/img/Group\ 212.png");    
-      display: block;
-      margin-left:1em;
-    }
-    &:hover:after {
-      transform:  translate(5px, 0%);
-      transition: all 0.5s ease-in-out;
-    }
-    &:hover{
-      transition: all .5s ease-in-out;
-    }
-  }
-}
-.btnTablet {
-    display: none;
-}
-@media screen and (max-width:1274px){
-  .wrapper{
-    justify-content:space-between !important;
-    align-items:center;
-  }
-  .header .button{
-    display: block;
-  }
-  .header .nav{/*quando o botão não estiver ativo */
-    width: 100%;
-   /* display: none;*/
-   overflow: hidden;
-   pointer-events: none;/*para não ter efeito no mouse*/
-   height: 0vh;
-   transition: all .5s ease-in-out;
-   display:flex;
-   flex-flow: column nowrap;
-   justify-content:center;
-   align-items: center;
-  }
-  .header .nav.activo{/*quando o botão estiver ativo */
-    /*para suavizar o efeito apenas retirei a altura e depois adicionei com um transition */
-    /*display: block;*/
-    height: 90vh;
-    pointer-events: auto;
-  }
-  .header .ul{
-    flex-direction: column;
-  }
-  .header .li{
-    margin: 1em 0;
-  }
-  .btn{
-    display: flex;
-    flex-direction: column;
-  }
-  .btnTablet {
-    display: none !important;
-    width: 84%;
-}
-}
-@media screen and (max-width:1400px ){
-  .wrapper{
-    justify-content:center;
-    align-items:center;
-  }
-  .header .button{
-    display: block;
-  }
-  .header .nav{/*quando o botão não estiver ativo */
-    width: 100%;
-   /* display: none;*/
-   overflow: hidden;
-   pointer-events: none;/*para não ter efeito no mouse*/
-   height: 0vh;
-   transition: all .5s ease-in-out;
-   display:flex;
-   flex-flow: column nowrap;
-   justify-content:center;
-   align-items: center;
-  }
-  .header .nav.activo{/*quando o botão estiver ativo */
-    /*para suavizar o efeito apenas retirei a altura e depois adicionei com um transition */
-    /*display: block;*/
-    height: 90vh;
-    pointer-events: auto;
-  }
-  .header .ul{
-    flex-direction: column;
-  }
-  .header .li{
-    margin: 1em 0;
-  }
-  .btnTablet {
-    display: flex;
-    width: 84%;
-    align-items: center;
-    justify-content:flex-end;
-    gap: 20px;
-    padding-inline:1em;
-    .-amarelo{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      padding: 16px 40px;
-      background: #FFE492;
-      color: #043873;
-      border-radius: 8px;
-      cursor: pointer;
-        &:hover{
-          background: #4F9CF9;
-          color: #FFFFFF;
-          transition: all .5s ease-in-out;
+  @media screen and (min-width:760px){
+    footer {
+      .logo-description{
+          align-items: flex-start;
+          padding: 1em;
+        }
+      .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding:1em;
       }
+     
+      .terms {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .inf{
+        align-items: flex-start;
+        padding: 1em;
+      }
+      .paragrafo{
+     
+        text-align: left;
+    
+      }
+      .try-btn{
+        width: 50%;
+        align-items: flex-start;
+      }
+      .social {
+        justify-content: flex-start;
+      }
+   }
   }
+  @media screen and (min-width:1152px){
+    footer{
+      .info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items:center;
+        width: 100%;
+        max-width: 1920px;
+        gap:100px;
+        height: 474px;
+      }
+      .inf{
+        width: 30%;
+        height: 197px;
+      }
+      .btm {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em;
+        width: 90%;
+        max-width: 1920px;
+        height: 236.68px;
+        border-top: 1px solid #2E4E73;
+        border-bottom: none;
+      }
+        .terms {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 20px;
+          width: 100%;
+          height: 200px;
+          border-bottom: none;
+        }
+ 
+        .social {
+          justify-content: flex-end;
+      
+        }
+    }
   }
-  .btn{
-    display: none;
-  }
-}
 </style>
+
 <script>
 export default {
-  name: 'HeaderApp',
-  props: {
-    msg: String,
-  },
- data() { 
-
-  },
-  methods:{
-
-  }
+  name: 'FooterSection',
 }
 </script>

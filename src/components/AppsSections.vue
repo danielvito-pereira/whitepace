@@ -1,34 +1,34 @@
 <template>
-  <section class="heroSection">
-    <div class="heading">
+  <section class="AppsSections">
+    <div class="heading ">
+      <div class="img">
+        <img src="../assets/img/Apps.png" alt="">
+      </div>
       <div class="head">
         <div class="text-block">
-          <h1 class="titulo">Get More Done with whitepace</h1>
+          <h1 class="titulo">Work with Your Favorite Apps Using whitepace</h1>
           <p class="paragrafo">
-            Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks
+            Whitepace teams up with your favorite software. Integrate with over 1000+ apps with Zapier to have all the tools you need for your project success.
           </p>
         </div>
-        <a class="bt -azul">Try Whitepace free</a>
-      </div>
-      <div class="img">
-        <img src="../assets/img/homem_segurando_celular_sentado_em_um_sofa.png" alt="">
+        <a class="bt -azul">Read more</a>
       </div>
     </div>
   </section>
 </template>
 
 <style lang="scss">
-  .heroSection{
+  .AppsSections{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 100px;
     width: 100%;
-    height:58.4375rem;
-    left: 0px;
+    height: 1203px;
+    padding: 1em;
     background-color: var(--primary-color);
-    background-image: url("../assets/img/Element.svg");
+    background-image: url("../assets/img/ElementBk.png");
     background-repeat: no-repeat;
     background-size: cover;
     .heading{
@@ -39,14 +39,8 @@
       padding: .2em;
       gap: 100px;
       width:90%;
-      max-width: 120rem;
+      max-width: 1920px;
       height:100vh;
-   
- 
-      /*
-           background: #730404;
-      min-width: 288px;
-      height: 653px;*/
       .head{
         display: flex;
         flex-direction: column;
@@ -55,6 +49,7 @@
         gap: 60px;
         width: 100%;
         padding:1em;
+        
         .text-block {
           display: flex;
           flex-direction: column;
@@ -92,7 +87,7 @@
         padding: 0px;
         gap: 4px;
         width: 100%;
-        min-width: 16.875rem;
+        min-width: 270px;
         img{
           width: 100%;
         }
@@ -100,9 +95,7 @@
     }
   }
   @media screen and (min-width:912px){
-    .heroSection{
-      height: 90%;
-      max-height: 50rem;
+    .AppsSections{
       .heading{
         flex-direction: row ;
         justify-content: space-between;
@@ -123,13 +116,16 @@
         }
     }
     }
+    .-reverse{
+            flex-direction: row-reverse !important;
+          }
   }
   @media screen and (min-width:1400px ){
-    .heroSection{
+    .AppsSections{
       .heading{
       flex-direction: row;
       justify-content: space-between;
-      gap: 0;
+      gap: 100;
       .head{
           .text-block{
             align-items:flex-start;
@@ -148,7 +144,8 @@
     }
     }
   }
-/*Botão */
+/*Botão 
+*/
   .bt{
     display: flex;
     flex-direction: row;
@@ -181,6 +178,6 @@
 
 <script>
 export default {
-  name: 'HeroSection',
+  name: 'AppsSections',
 }
 </script>

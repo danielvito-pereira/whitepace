@@ -1,36 +1,31 @@
 <template>
-  <section class="heroSection">
-    <div class="heading">
+  <section class="YourWork">
+    <div class="heading ">
       <div class="head">
         <div class="text-block">
-          <h1 class="titulo">Get More Done with whitepace</h1>
+          <h1 class="titulo">Your work, everywhere you are</h1>
           <p class="paragrafo">
-            Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks
+            Access your notes from your computer, phone or tablet by synchronising with various services, including whitepace, Dropbox and OneDrive. The app is available on Windows, macOS, Linux, Android and iOS. A terminal app is also available!
           </p>
         </div>
-        <a class="bt -azul">Try Whitepace free</a>
-      </div>
-      <div class="img">
-        <img src="../assets/img/homem_segurando_celular_sentado_em_um_sofa.png" alt="">
+        <a class="bt -azul">Try Taskey</a>
       </div>
     </div>
   </section>
 </template>
 
 <style lang="scss">
-  .heroSection{
+  .YourWork{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 100px;
     width: 100%;
-    height:58.4375rem;
+   
+    max-height: 630px;
     left: 0px;
     background-color: var(--primary-color);
-    background-image: url("../assets/img/Element.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
     .heading{
       display: flex;
       flex-direction: column;
@@ -39,19 +34,13 @@
       padding: .2em;
       gap: 100px;
       width:90%;
-      max-width: 120rem;
+      max-width: 1920px;
       height:100vh;
-   
- 
-      /*
-           background: #730404;
-      min-width: 288px;
-      height: 653px;*/
       .head{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         gap: 60px;
         width: 100%;
         padding:1em;
@@ -68,7 +57,7 @@
             font-weight: 700;
             font-size: 42px;
             line-height: 44px;
-            text-align: center;
+            text-align: left;
             letter-spacing: -0.02em;
             color:var(--white);
           }
@@ -78,70 +67,61 @@
             font-weight: 400;
             font-size: 18px;
             line-height: 30px;
-            text-align: center;
+            text-align: left;
             letter-spacing: -0.02em;
             color:var(--white);
           }
         }
       }
-      .img{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 0px;
-        gap: 4px;
-        width: 100%;
-        min-width: 16.875rem;
-        img{
-          width: 100%;
-        }
-      }
     }
   }
   @media screen and (min-width:912px){
-    .heroSection{
+    .YourWork{
       height: 90%;
-      max-height: 50rem;
+      max-height: 800px;
       .heading{
         flex-direction: row ;
         justify-content: space-between;
         width: 90%;
         .head{
-          align-items: flex-start;
+          align-items: center;
           .text-block{
+            align-items: center !important;
             h1.titulo{
-              text-align: left;
+              text-align: center;
             }
             .paragrafo{
-            text-align: left;
+            text-align: center;
             }
-          }
-          .img{
-            height:100%;
           }
         }
     }
     }
   }
   @media screen and (min-width:1400px ){
-    .heroSection{
+    .YourWork{
+      height: 90%;
+      max-height: 574px;
+    }
+    .yourdata{
+     
       .heading{
       flex-direction: row;
       justify-content: space-between;
-      gap: 0;
+      gap: 100;
+      
       .head{
           .text-block{
-            align-items:flex-start;
+            align-items:center;
             h1.titulo{
-              text-align: left;
+              text-align: center;
               font-weight: 700;
               font-size: 64px;
               line-height: 77px;
               letter-spacing: -0.02em;
             }
             .paragrafo{
-            text-align: left;
+            text-align: center;
             }
           }
     }
@@ -161,6 +141,7 @@
     border-radius: 8px;
     cursor: pointer;
     &:hover{
+   
       transition: all .5s ease-in-out;
     }
     
@@ -181,6 +162,6 @@
 
 <script>
 export default {
-  name: 'HeroSection',
+  name: 'YourWork',
 }
 </script>

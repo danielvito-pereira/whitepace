@@ -1,36 +1,34 @@
 <template>
-  <section class="heroSection">
+  <section class="Customise">
     <div class="heading">
+      <div class="img">
+        <img src="../assets/img/pexels-antoni-shkraba-4348404.jpg" alt="">
+      </div>
       <div class="head">
         <div class="text-block">
-          <h1 class="titulo">Get More Done with whitepace</h1>
+          <h1 class="titulo">Customise it to your needs</h1>
           <p class="paragrafo">
-            Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks
+            Customise the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API.
           </p>
         </div>
-        <a class="bt -azul">Try Whitepace free</a>
+        <a class="bt -azul">Let’s Go</a>
       </div>
-      <div class="img">
-        <img src="../assets/img/homem_segurando_celular_sentado_em_um_sofa.png" alt="">
-      </div>
+
     </div>
   </section>
 </template>
 
 <style lang="scss">
-  .heroSection{
+  .Customise{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 100px;
     width: 100%;
-    height:58.4375rem;
+    height: 903px;
     left: 0px;
-    background-color: var(--primary-color);
-    background-image: url("../assets/img/Element.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: var(--white);
     .heading{
       display: flex;
       flex-direction: column;
@@ -39,9 +37,8 @@
       padding: .2em;
       gap: 100px;
       width:90%;
-      max-width: 120rem;
       height:100vh;
-   
+      max-width: 1920px;
  
       /*
            background: #730404;
@@ -70,7 +67,7 @@
             line-height: 44px;
             text-align: center;
             letter-spacing: -0.02em;
-            color:var(--white);
+            color:var(--negro);
           }
           .paragrafo{
             font-family: 'Inter';
@@ -80,7 +77,7 @@
             line-height: 30px;
             text-align: center;
             letter-spacing: -0.02em;
-            color:var(--white);
+            color:var(--negro);
           }
         }
       }
@@ -92,17 +89,19 @@
         padding: 0px;
         gap: 4px;
         width: 100%;
-        min-width: 16.875rem;
+        min-width: 270px;
+        border-radius: 8px;
         img{
           width: 100%;
+          border-radius: 8px;
         }
       }
     }
   }
   @media screen and (min-width:912px){
-    .heroSection{
+    .Customise{
       height: 90%;
-      max-height: 50rem;
+      max-height: 800px;
       .heading{
         flex-direction: row ;
         justify-content: space-between;
@@ -123,13 +122,23 @@
         }
     }
     }
+    .Customise {
+      .heading{
+        .head {
+          .text-block{
+              align-items: flex-start !important;
+            }
+        }
+      }
+    }
+      
   }
   @media screen and (min-width:1400px ){
-    .heroSection{
+    .Customise{
       .heading{
       flex-direction: row;
       justify-content: space-between;
-      gap: 0;
+      gap: 50;
       .head{
           .text-block{
             align-items:flex-start;
@@ -181,6 +190,6 @@
 
 <script>
 export default {
-  name: 'HeroSection',
+  name: 'YourNeeds',
 }
 </script>

@@ -1,36 +1,32 @@
 <template>
-  <section class="heroSection">
-    <div class="heading">
+  <section class="yourdata">
+    <div class="heading -reverse">
+      <div class="img">
+        <img src="../assets/img/Element_2.png" alt="">
+      </div>
       <div class="head">
         <div class="text-block">
-          <h1 class="titulo">Get More Done with whitepace</h1>
+          <h1 class="titulo">100% your data</h1>
           <p class="paragrafo">
-            Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks
+            The app is open source and your notes are saved to an open format, so you'll always have access to them. Uses End-To-End Encryption (E2EE) to secure your notes and ensure no-one but yourself can access them.
           </p>
         </div>
-        <a class="bt -azul">Try Whitepace free</a>
-      </div>
-      <div class="img">
-        <img src="../assets/img/homem_segurando_celular_sentado_em_um_sofa.png" alt="">
+        <a class="bt -azul">Read more</a>
       </div>
     </div>
   </section>
 </template>
 
 <style lang="scss">
-  .heroSection{
+  .yourdata{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 100px;
     width: 100%;
-    height:58.4375rem;
+    height: 903px;
     left: 0px;
-    background-color: var(--primary-color);
-    background-image: url("../assets/img/Element.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
     .heading{
       display: flex;
       flex-direction: column;
@@ -39,14 +35,8 @@
       padding: .2em;
       gap: 100px;
       width:90%;
-      max-width: 120rem;
+      max-width: 1920px;
       height:100vh;
-   
- 
-      /*
-           background: #730404;
-      min-width: 288px;
-      height: 653px;*/
       .head{
         display: flex;
         flex-direction: column;
@@ -59,7 +49,6 @@
           display: flex;
           flex-direction: column;
           justify-content: center;
-          align-items: center;
           gap: 24px;
           width: 100%;
           h1.titulo{
@@ -70,7 +59,7 @@
             line-height: 44px;
             text-align: center;
             letter-spacing: -0.02em;
-            color:var(--white);
+            color:var(--negro);
           }
           .paragrafo{
             font-family: 'Inter';
@@ -80,7 +69,7 @@
             line-height: 30px;
             text-align: center;
             letter-spacing: -0.02em;
-            color:var(--white);
+            color:var(--negro);
           }
         }
       }
@@ -92,7 +81,7 @@
         padding: 0px;
         gap: 4px;
         width: 100%;
-        min-width: 16.875rem;
+        min-width: 270px;
         img{
           width: 100%;
         }
@@ -100,9 +89,9 @@
     }
   }
   @media screen and (min-width:912px){
-    .heroSection{
+    .yourdata{
       height: 90%;
-      max-height: 50rem;
+      max-height: 800px;
       .heading{
         flex-direction: row ;
         justify-content: space-between;
@@ -123,13 +112,16 @@
         }
     }
     }
+    .-reverse{
+            flex-direction: row-reverse !important;
+          }
   }
   @media screen and (min-width:1400px ){
-    .heroSection{
+    .yourdata{
       .heading{
       flex-direction: row;
       justify-content: space-between;
-      gap: 0;
+      gap: 100;
       .head{
           .text-block{
             align-items:flex-start;
@@ -181,6 +173,6 @@
 
 <script>
 export default {
-  name: 'HeroSection',
+  name: 'YourData',
 }
 </script>
