@@ -5,6 +5,7 @@
   <CustomiseSection/>
   <YourNeeds/>
   <SlidePricing/>
+  <SwiperVue/>
   <YourWork/>
   <YourData/>
   <YourSponsors/>
@@ -29,6 +30,7 @@ import AppsSections from './components/AppsSections.vue'
 import TestimonialSection from './components/TestimonialSection.vue'
 import FreeTrial from './components/FreeTrial.vue'
 import FooterSection from './components/FooterSection.vue'
+import SwiperVue from './components/SwiperVue.vue'
 export default {
   name: 'App',
   components: {
@@ -44,7 +46,9 @@ export default {
     AppsSections,
     TestimonialSection,
     FreeTrial,
-    FooterSection
+    FooterSection,
+    SwiperVue
+
   }
 }
 </script>

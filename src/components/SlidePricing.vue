@@ -112,11 +112,11 @@
         <button class="bt -do">Get Started</button>
       </div>
     </div>
-    <div class="indicadores">
-      <button id="bb" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-label="Slide 1" class="" aria-current="true"></button>
-      <button id="bb" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-label="Slide 2" class="active" aria-current="true"></button>
-      <button id="bb" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-label="Slide 3" class="" aria-current="true"></button>
-    </div>
+    <ul class="pontos">
+            <li class="ponto activo"></li>
+            <li class="ponto"></li>
+            <li class="ponto"></li>
+        </ul>
   </section>
 </template>
 
@@ -259,7 +259,7 @@
             padding: 1em;
           }
         }  
-      .indicadores{
+      .pontos{
         display: none;
         flex-direction: row;
         align-items: center;
@@ -282,19 +282,6 @@
           }
         }
       }  
-    }
-    @media screen and (max-width:500px){
-      .SlidePricing{
-      .priceList{
-          .priceBoard{
-          }
-          .priceBoard.-dourado{
-          }
-        }  
-      .indicadores{
-        display: flex;
-      }  
-    }
     }
     @media screen and (max-width:912px){
       .SlidePricing{
