@@ -148,6 +148,7 @@ export default {
 .swiper-wrapper{
   padding: 1rem;
   background-color: #043873;
+  
 }
 .swiper-pagination{
   padding: 2rem;
