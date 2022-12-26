@@ -1,7 +1,7 @@
 <template>
   <section class="YourSponsors">
     <div class="text-block">
-      <h1 class="titulo">Your sponsors</h1> 
+      <h1 class="titulo">Your  sponsors</h1> 
     </div>
     <div class="sponsors">
       <img src="../assets/img/Apple.png" alt="">

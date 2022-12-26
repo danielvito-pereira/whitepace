@@ -4,7 +4,7 @@
       <div class="heading">
         <div class="head">
           <div class="text-block">
-            <h1 class="titulo">Project Management</h1>
+            <h1 class="titulo">Project <div class="destaque">Management</div> </h1>
             <p class="paragrafo">
               Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.
             </p>
@@ -119,7 +119,16 @@
           }
         }
     }
+  .destaque {
   
+    background-image: url(../assets/img/Element.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    height: 4.5rem;
+
+  }
+
     @media screen and (min-width:912px){
  
       .WorkManagement{
@@ -187,6 +196,16 @@
           }
         }
       }
+
+      .destaque {
+       
+        background-image: url(../assets/img/Element.png);
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        background-size: 120%;
+        height: 7.3rem;
+
+  }
     }
 </style>
 
