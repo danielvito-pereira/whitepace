@@ -5,7 +5,6 @@
   <CustomiseSection/>
   <YourNeeds/>
   <SlidePricing/>
-  <SwiperVue/>
   <YourWork/>
   <YourData/>
   <YourSponsors/>
@@ -14,9 +13,7 @@
   <FreeTrial/>
   <FooterSection/>
 </template>
-
 <script>
-
 import NavMenu from './components/NavMenu.vue'
 import HeroSection from './components/HeroSection.vue'
 import WorkManagement from './components/WorkManagement.vue'
@@ -30,7 +27,6 @@ import AppsSections from './components/AppsSections.vue'
 import TestimonialSection from './components/TestimonialSection.vue'
 import FreeTrial from './components/FreeTrial.vue'
 import FooterSection from './components/FooterSection.vue'
-import SwiperVue from './components/SwiperVue.vue'
 export default {
   name: 'App',
   components: {
@@ -47,7 +43,7 @@ export default {
     TestimonialSection,
     FreeTrial,
     FooterSection,
-    SwiperVue
+ 
 
   }
 }

@@ -1,3 +1,4 @@
+<!--
 <template>
   <swiper 
     :spaceBetween="30"

@@ -22,7 +22,6 @@
     align-items: center;
     gap: 100px;
     width: 100%;
-   
     max-height: 630px;
     left: 0px;
     background-color: var(--primary-color);
@@ -78,7 +77,7 @@
   @media screen and (min-width:912px){
     .YourWork{
       height: 90%;
-      max-height: 800px;
+      max-height: 50rem;
       .heading{
         flex-direction: row ;
         justify-content: space-between;
