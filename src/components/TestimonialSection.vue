@@ -219,8 +219,8 @@ export default {
         align-items: flex-start;
         padding: 0px 0px 40px;
         gap: 32px;
-        width:90%;
-        height: 12.0013rem;
+        width: 90%;
+        height: 14rem;
         border-bottom: 1px solid #212529;
         img{
           width: 56px;
@@ -264,34 +264,38 @@ export default {
       }
   }
   .-blue{
-      background-color:var(--blue-2);
-      color: var(--white);
-      .name{
-        h1{
-          color: var(--primary-color);
-        }
-        p{
-          color: var(--white);
-        }
+    background-color:var(--blue-2);
+    color: var(--white);
+    .comment{
+      border-bottom: 1px solid #fdfdfd;
+    }
+    .name{
+      h1{
+        color: var(--primary-color);
       }
+      p{
+        color: var(--white);
+      }
+    }
   }
   /*swiper */
   @media screen and (max-width: 912px){
       .TestimonialSection{
         .priceList{
-        display: none;
+          display: none;
+        }
       }
       .ocultar{
-        display:block;
+        display: block !important;
       } 
-      }
   }
   .ocultar{
-    display:none;
+    display: none;
   } 
   .swiper-wrapper{
     padding: 1rem;
     background-color: #043873;
+    widows: 90%;
   }
   .swiper-pagination{
     padding: 2rem;
@@ -299,8 +303,14 @@ export default {
   .swiper{
     padding-right: 0;
     padding: 1rem;
-    height:  45.25rem;
+    height:  35.25rem;
     max-height: 75.25rem;
+  }
+  .mySwiper{
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
   }
   .priceBoard{
     display: flex;
