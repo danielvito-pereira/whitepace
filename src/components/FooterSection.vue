@@ -171,6 +171,7 @@
   padding: 0px;
   gap: 20px;
   width: 100%;
+  padding-bottom: 1rem;
 }
 .-img_T {
   background-image: url();

@@ -51,27 +51,27 @@
         </div>
         <div class="bulletPoint">
           <div class="point -t">
-            <img src="../assets/img/Icon.png" srcset="">
+            <img src="../assets/img/Icon_d.png" srcset="">
             <p>Sync unlimited devices</p>
           </div>
           <div class="point -t">
-            <img src="../assets/img/Icon.png" srcset="">
+            <img src="../assets/img/Icon_d.png" srcset="">
             <p>10 GB monthly uploads</p>
           </div>
           <div class="point -t">
-            <img src="../assets/img/Icon.png" srcset="">
+            <img src="../assets/img/Icon_d.png" srcset="">
             <p>200 MB max. note size</p>
           </div>
           <div class="point -t">
-            <img src="../assets/img/Icon.png" srcset="">
+            <img src="../assets/img/Icon_d.png" srcset="">
             <p>Customize Home dashboard and access extra widgets</p>
           </div>
           <div class="point -t">
-            <img src="../assets/img/Icon.png" srcset="">
+            <img src="../assets/img/Icon_d.png" srcset="">
             <p>Connect primary Google Calendar account</p>
           </div>
           <div class="point -t">
-            <img src="../assets/img/Icon.png" srcset="">
+            <img src="../assets/img/Icon_d.png" srcset="">
             <p>Add due dates, reminders, and notifications to your tasks</p>
           </div>
         </div>
