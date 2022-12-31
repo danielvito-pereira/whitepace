@@ -301,7 +301,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: flex-start;
-            gap: 0px;
+            gap: 40px;
             width: 97%;
             padding: 1em;
             box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
@@ -311,13 +311,13 @@
             min-height: 855px;
             max-width: 472.33px;
               .text{
-                  display: flex;
-                  flex-direction: column;
-                  align-items: flex-start;
-                  padding: 0px;
-                  gap: 15px;
-                  width: 90%;
-                  padding: 1em;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0px;
+                gap: 15px;
+                width: 90%;
+                padding: 1em;
                   h1{
                     font-family: 'Inter';
                     font-style: normal;
@@ -361,9 +361,8 @@
                   padding: 0px;
                   gap: 4px;
                   width: 18.01px;
-                  height: 18.01px;
-                  
-              }
+                  height: 18.01px; 
+                }
               }
           }
           .priceBoard.-dourado{
@@ -372,7 +371,7 @@
             border: 1px solid var(--button2);
             padding:0;
             min-height: 50rem;
-            gap: 0;
+            gap: 10;
             padding: 1em;
           }
         }  
