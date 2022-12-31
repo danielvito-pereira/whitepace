@@ -27,66 +27,6 @@
     width: 100%;
     height: 903px;
     left: 0px;
-    .heading{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: .2em;
-      gap: 100px;
-      width:90%;
-      max-width: 1920px;
-      height:100vh;
-      .head{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 60px;
-        width: 100%;
-        padding:1em;
-        .text-block {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          gap: 24px;
-          width: 100%;
-          h1.titulo{
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 42px;
-            line-height: 44px;
-            text-align: center;
-            letter-spacing: -0.02em;
-            color:var(--negro);
-          }
-          .paragrafo{
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 30px;
-            text-align: center;
-            letter-spacing: -0.02em;
-            color:var(--negro);
-          }
-        }
-      }
-      .img{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 0px;
-        gap: 4px;
-        width: 100%;
-        min-width: 270px;
-        img{
-          width: 100%;
-        }
-      }
-    }
   }
   @media screen and (min-width:912px){
     .yourdata{
@@ -113,8 +53,8 @@
     }
     }
     .-reverse{
-            flex-direction: row-reverse !important;
-          }
+      flex-direction: row-reverse !important;
+    }
   }
   @media screen and (min-width:1400px ){
     .yourdata{
@@ -140,35 +80,6 @@
     }
     }
   }
-/*Botão */
-  .bt{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 1em ;
-    width: 227px;
-    background: #4F9CF9;
-    color: #FFFFFF;
-    border-radius: 8px;
-    cursor: pointer;
-    &:hover{
-      transition: all .5s ease-in-out;
-    }
-    
-    
-  }
-  .-azul {
-      &::after{
-      content: url("../assets/img/Group\ 212.png");    
-      display: block;
-      margin-left:1em;
-    }
-    &:hover:after {
-      transform:  translate(5px, 0%);
-      transition: all 0.5s ease-in-out;
-    }
-    }
 </style>
 
 <script>

@@ -4,10 +4,10 @@
       <h1 class="titulo">Your  sponsors</h1> 
     </div>
     <div class="sponsors">
-      <img src="../assets/img/Apple.png" alt="">
-      <img src="../assets/img/microsoft1.png" alt="">
-      <img src="../assets/img/SlackTechnologiesLogo1.png" alt="">
-      <img src="../assets/img/Group246.png" alt="">
+      <img class="apple" src="../assets/img/Apple.png" alt="Logo Apple">
+      <img src="../assets/img/microsoft1.png" alt="Logo Microsoft">
+      <img src="../assets/img/SlackTechnologiesLogo1.png" alt="Logo Slack">
+      <img src="../assets/img/Group246.png" alt="Logo group">
     </div>
   </section>
 </template>
@@ -53,6 +53,9 @@
         img{
           width: 50%;
         }
+        .apple{
+          width: 15%;
+        }
       }
   }
  
@@ -67,7 +70,9 @@
         justify-content: space-around;
         max-height: 538px;
         width: 90%;
+
       }
+
     }
   }     
 </style>

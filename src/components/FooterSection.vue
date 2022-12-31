@@ -103,89 +103,89 @@
     width: 100%;
     height: 1217px;
   }
-.logo-description{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
-  gap: 24px;
-  widows: 100%;
-  max-width: 288px;
-  height: 178px;
-  min-width: 240px;
-}
-.inf{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 15px;
-  color: var(--white);
-  height: 157px;
-}
-.try-btn{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 23px;
-  height: 242px;
-  color: var(--white);
-}
-.btm {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 20px;
-  width: 90%;
-  height: 236.68px;
-}
-.terms {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 0px 20px;
-  gap: 20px;
-  color: var(--white);
-  width: 100%;
-  height: 200px;
-  border-bottom: 1px solid #2E4E73;
-}
-.language{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 6px;
-  height: 20px;
-}
-.social {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0px;
-  gap: 20px;
-  width: 100%;
-  padding-bottom: 1rem;
-}
-.-img_T {
-  background-image: url();
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  display: block;
-  background-color: red;
-}
-#c-desk {
-  display: none;
-}
-.paragrafo{
+  .logo-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    widows: 100%;
+    max-width: 288px;
+    height: 178px;
+    min-width: 240px;
+  }
+  .inf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+    color: var(--white);
+    height: 157px;
+  }
+  .try-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 23px;
+    height: 242px;
+    color: var(--white);
+  }
+  .btm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 90%;
+    height: 236.68px;
+  }
+  .terms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 20px;
+    gap: 20px;
+    color: var(--white);
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid #2E4E73;
+  }
+  .language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 6px;
+    height: 20px;
+  }
+  .social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+  .-img_T {
+    background-image: url();
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    background-color: red;
+  }
+  #c-desk {
+    display: none;
+  }
+  .paragrafo{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -198,9 +198,9 @@
   @media screen and (min-width:760px){
     footer {
       .logo-description{
-          align-items: flex-start;
-          padding: 1em;
-        }
+        align-items: flex-start;
+        padding: 1em;
+      }
       .info {
         display: flex;
         flex-direction: column;
@@ -208,7 +208,6 @@
         align-items: flex-start;
         padding:1em;
       }
-     
       .terms {
         flex-direction: row;
         justify-content: space-between;
@@ -218,9 +217,7 @@
         padding: 1em;
       }
       .paragrafo{
-     
         text-align: left;
-    
       }
       .try-btn{
         width: 50%;
@@ -259,21 +256,19 @@
         border-top: 1px solid #2E4E73;
         border-bottom: none;
       }
-        .terms {
-          display: flex;
-          flex-direction: row;
-          justify-content: flex-start;
-          align-items: center;
-          gap: 20px;
-          width: 100%;
-          height: 200px;
-          border-bottom: none;
-        }
- 
-        .social {
-          justify-content: flex-end;
-      
-        }
+      .terms {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        height: 200px;
+        border-bottom: none;
+      }
+      .social {
+        justify-content: flex-end;
+      }
     }
   }
 </style>

@@ -3,8 +3,8 @@
     <div class="heading">
       <div class="head">
         <div class="text-block">
-          <h1 class="titulo">Get More Done with whitepace</h1>
-          <p class="paragrafo">
+          <h1 class="titulo -branco">Get More Done with whitepace</h1>
+          <p class="paragrafo -branco">
             Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks
           </p>
         </div>
@@ -31,7 +31,8 @@
     background-image: url("../assets/img/Element.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    .heading{
+  }
+  .heading{
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -41,12 +42,6 @@
       width:90%;
       max-width: 120rem;
       height:100vh;
-   
- 
-      /*
-           background: #730404;
-      min-width: 288px;
-      height: 653px;*/
       .head{
         display: flex;
         flex-direction: column;
@@ -70,7 +65,7 @@
             line-height: 44px;
             text-align: center;
             letter-spacing: -0.02em;
-            color:var(--white);
+            color:var(--negro);
           }
           .paragrafo{
             font-family: 'Inter';
@@ -80,7 +75,7 @@
             line-height: 30px;
             text-align: center;
             letter-spacing: -0.02em;
-            color:var(--white);
+            color:var(--negro);
           }
         }
       }
@@ -93,59 +88,63 @@
         gap: 4px;
         width: 100%;
         min-width: 16.875rem;
+        border-radius: 10px;
         img{
           width: 100%;
+          border-radius: 10px;
         }
       }
-    }
+  }
+  .-branco{
+    color: var(--white) !important;
   }
   @media screen and (min-width:912px){
     .heroSection{
       height: 90%;
       max-height: 50rem;
-      .heading{
-        flex-direction: row ;
-        justify-content: space-between;
-        width: 90%;
-        .head{
-          align-items: flex-start;
-          .text-block{
-            h1.titulo{
-              text-align: left;
-            }
-            .paragrafo{
+    }
+    .heading{
+      flex-direction: row ;
+      justify-content: space-between;
+      width: 90%;
+      .head{
+        align-items: flex-start;
+        .text-block{
+          h1.titulo{
             text-align: left;
-            }
+          }
+          .paragrafo{
+            text-align: left;
+          }
           }
           .img{
             height:100%;
           }
-        }
-    }
+      }
     }
   }
   @media screen and (min-width:1400px ){
     .heroSection{
       .heading{
-      flex-direction: row;
-      justify-content: space-between;
-      gap: 0;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
       .head{
-          .text-block{
-            align-items:flex-start;
-            h1.titulo{
-              text-align: left;
-              font-weight: 700;
-              font-size: 64px;
-              line-height: 77px;
-              letter-spacing: -0.02em;
-            }
-            .paragrafo{
+        .text-block{
+          align-items:flex-start;
+          h1.titulo{
             text-align: left;
-            }
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 77px;
+            letter-spacing: -0.02em;
           }
-    }
-    }
+          .paragrafo{
+            text-align: left;
+          }
+        }
+      }
+      }
     }
   }
 /*Botão */
@@ -163,8 +162,6 @@
     &:hover{
       transition: all .5s ease-in-out;
     }
-    
-    
   }
   .-azul {
       &::after{

@@ -79,7 +79,7 @@
       <swiper-slide>
         <div class="client -blue" id="c-desk" >
       <div class="comment">
-              <img src="../assets/img/Quote_blue.png" alt="quote" srcset="">
+              <img src="../assets/img/Quote.png" alt="quote" srcset="">
               <p>Whitepate is designed as a collaboration tool for businesses that is a full project management solution.</p>
       </div>
       <div class="name-box">
@@ -90,11 +90,11 @@
               </div>
       </div>
     </div>
-      </swiper-slide
-      ><swiper-slide>
+      </swiper-slide>
+      <swiper-slide>
         <div class="client -blue" id="c-desk">
       <div class="comment">
-              <img src="../assets/img/Quote_blue.png" alt="quote" srcset="">
+              <img src="../assets/img/Quote.png" alt="quote" srcset="">
               <p>Whitepate is designed as a collaboration tool for businesses that is a full project management solution.</p>
       </div>
       <div class="name-box">

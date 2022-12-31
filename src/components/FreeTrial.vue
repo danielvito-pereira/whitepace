@@ -2,12 +2,11 @@
   <section class="freetrial">
     <div class="heading">
       <div class="text-block">
-            <h1 class="titulo">Try Whitepace today</h1>
-            <p class="paragrafo">
-              Get started for free.<br/>Add your whole team as your needs grow.
-            </p>
+        <h1 class="titulo">Try Whitepace today</h1>
+        <p class="paragrafo">
+          Get started for free.<br/>Add your whole team as your needs grow.
+        </p>
       </div>
-
       <div class="btnTry">
         <a class="bt -azul">Try Taskey free</a>
         <p class="paragrafo">On a big team? Contact sales</p>
@@ -21,7 +20,6 @@
     </div>
   </section>
 </template>
-
 
 <style lang="scss" scoped>
   .freetrial{
@@ -43,32 +41,32 @@
       width: 90%;
       gap: 40px;
       .text-block {
-          display: flex;
-          flex-direction: column;
-          justify-content: flex-start;
-          gap: 24px;
-          width: 100%;
-          h1.titulo{
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 42px;
-            line-height: 44px;
-            text-align: left;
-            letter-spacing: -0.02em;
-            color:var(--white);
-          }
-          .paragrafo{
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 30px;
-            text-align: left;
-            letter-spacing: -0.02em;
-            color:var(--white);
-          }
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 24px;
+        width: 100%;
+        h1.titulo{
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 42px;
+          line-height: 44px;
+          text-align: left;
+          letter-spacing: -0.02em;
+          color:var(--white);
         }
+        .paragrafo{
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          text-align: left;
+          letter-spacing: -0.02em;
+          color:var(--white);
+        }
+      }
     }
     .btnTry {
       display: flex;
@@ -85,26 +83,26 @@
         width: 30%;
       }
       .paragrafo{
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 30px;
-            text-align: left;
-            letter-spacing: -0.02em;
-            color:var(--white);
-          }
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: left;
+        letter-spacing: -0.02em;
+        color:var(--white);
+      }
     }
     .paragrafo{
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 30px;
-            text-align: left;
-            letter-spacing: -0.02em;
-            color:var(--white);
-          }
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      text-align: left;
+      letter-spacing: -0.02em;
+      color:var(--white);
+    }
   }
   @media screen and (min-width:1150px ){
     .freetrial {
@@ -127,33 +125,32 @@
           gap: 40px;
           width: 60px;
           height: 60px;
-        }
+          }
         }
       }
     }
     h1.titulo{
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 42px;
-            line-height: 44px;
-            text-align: center;
-            letter-spacing: -0.02em;
-            color:var(--white);
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 42px;
+      line-height: 44px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color:var(--white);
     }
-        .paragrafo{
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 30px;
-            text-align: center;
-            letter-spacing: -0.02em;
-            color:var(--white);
-          }
+    .paragrafo{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color:var(--white);
+    }
   }
 </style>
-
 
 <script>
 export default {
