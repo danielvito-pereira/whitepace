@@ -6,7 +6,7 @@
       </div>
       <div class="head">
         <div class="text-block">
-          <h1 class="titulo">Customise it to your needs</h1>
+          <h1 class="titulo">Customise it to  <div class="destaque -Dh2">your needs</div> </h1>
           <p class="paragrafo">
             Customise the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API.
           </p>
@@ -30,6 +30,7 @@
     left: 0px;
     background-color: var(--white);
   }
+
   @media screen and (min-width:912px){
     .Customise{
       height: 90%;
